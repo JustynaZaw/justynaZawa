@@ -11,4 +11,10 @@ def multiply(*args):
 multiply(5, 6, 7, 12, 1)
 
 
+def welcome(**kwargs):
+    if "imie" in kwargs and "nazwisko" in kwargs:
+        print("Hello ", kwargs["imie"], kwargs["nazwisko"])
+    elif "imie" in kwargs:
+        print("Hello ", kwargs["imie"])
 
+welcome(imie="Justyna", wiek=30, nazwisko="Zawada")
