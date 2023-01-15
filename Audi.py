@@ -37,13 +37,13 @@ class Audi:
         self.maksymalna_predkosc = 100
         print("tryb normal wlaczony")
     def tankowanie(self, litr):
-        self.litr = litr
-        if litr < 5:
-            print("za malo")
-        elif litr > 70:
+        if self.ilosc_paliwa + litr > 70:
+            print("za duzo")
+        elif litr < 5:
             print("tyle sie nie da")
         else:
-            print("jest ok")
+            self.ilosc_paliwa += round(litr)
+            print(f"zatankowalem i mam {self.ilosc_paliwa} ")
 
 
 
@@ -53,4 +53,4 @@ auto_sasiada = Audi("zielony", 5)
 
 print(moje_auto.wlacz_normal())
 print(moje_auto.zasieg())
-print(moje_auto.tankowanie(80))
+print(moje_auto.tankowanie(17))
