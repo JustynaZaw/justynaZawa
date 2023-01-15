@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a84db20-38e3-4b6a-9fb1-491abd53e9ea" name="Changes" comment="" />
+    <list default="true" id="9a84db20-38e3-4b6a-9fb1-491abd53e9ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Audi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Audi.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/builtins.pyi" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
